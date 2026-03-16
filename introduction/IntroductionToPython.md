@@ -1,145 +1,115 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "24773952",
-   "metadata": {
-    "vscode": {
-     "languageId": "plaintext"
-    }
-   },
-   "outputs": [],
-   "source": [
-    "\n",
-    "# Introduction to Python 🐍\n",
-    "\n",
-    "## What is Python?\n",
-    "\n",
-    "Python is a **high-level, easy-to-learn programming language** that uses an **interpreter** to execute code.\n",
-    "\n",
-    "Python was created by **Guido van Rossum** and first released in **1991**.\n",
-    "\n",
-    "---\n",
-    "\n",
-    "# Why Python is Popular\n",
-    "\n",
-    "Python is widely used because:\n",
-    "\n",
-    "1.Easy to read and write  \n",
-    "2.Beginner-friendly syntax  \n",
-    "3.Large community support  \n",
-    "4.Works on Windows, Mac, and Linux  \n",
-    "5.Huge number of libraries available  \n",
-    "\n",
-    "---\n",
-    "\n",
-    "# Features of Python\n",
-    "\n",
-    "## 1. Interpreted Language\n",
-    "Python runs **line by line**, which makes debugging easier.\n",
-    "\n",
-    "## 2. Dynamically Typed\n",
-    "You **do not need to declare variable types**.\n",
-    "\n",
-    "## 3. Large Libraries\n",
-    "\n",
-    "Python provides many powerful libraries.\n",
-    "\n",
-    "Examples:\n",
-    "\n",
-    "NumPy → Numerical computing\n",
-    "\n",
-    "Pandas → Data analysis\n",
-    "\n",
-    "Matplotlib → Data visualization\n",
-    "\n",
-    "---\n",
-    "\n",
-    "# Applications of Python\n",
-    "\n",
-    "Python is widely used in:\n",
-    "\n",
-    "1.  Machine Learning\n",
-    "2.  Artificial Intelligence\n",
-    "3.  Web Development\n",
-    "4.  Automation\n",
-    "5.  Game Development\n",
-    "6.  Cybersecurity\n",
-    "7.  Networking\n",
-    "8.  Data Science & Analytics\n",
-    "9.  Scientific Computing\n",
-    "10. Finance Testing\n",
-    "\n",
-    "---\n",
-    "\n",
-    "# Python Workflow\n",
-    "\n",
-    "Python follows a simple process to execute a program.\n",
-    "\n",
-    "## Step 1: Write Python Code\n",
-    "\n",
-    "Write the Python program in an IDE or editor such as:\n",
-    "\n",
-    "-   VS Code\n",
-    "-   PyCharm\n",
-    "-   Jupyter Notebook\n",
-    "\n",
-    "## Step 2: Python Interpreter Reads the Code\n",
-    "\n",
-    "Unlike compiled languages such as **C or C++**, Python does not convert\n",
-    "the entire program into machine code at once. Instead, it **reads and\n",
-    "executes the code line by line**.\n",
-    "\n",
-    "## Step 3: Conversion to Bytecode\n",
-    "\n",
-    "When the interpreter reads the program, it converts the code into\n",
-    "**bytecode**.\n",
-    "\n",
-    "-   Bytecode is an **intermediate code**\n",
-    "-   It is stored in a **`.pyc` file**\n",
-    "\n",
-    "## Step 4: Python Virtual Machine (PVM)\n",
-    "\n",
-    "The **Python Virtual Machine (PVM)** executes the bytecode.\n",
-    "\n",
-    "-   The PVM converts the bytecode into **machine instructions** that the\n",
-    "    computer can understand.\n",
-    "\n",
-    "## Step 5: Output is Generated\n",
-    "\n",
-    "Finally, the computer executes the instructions and produces the output.\n",
-    "\n",
-    "------------------------------------------------------------------------\n",
-    "\n",
-    "\n",
-    "## Python Execution Workflow\n",
-    "\n",
-    "    Python Code (.py file)\n",
-    "            ↓\n",
-    "    Python Interpreter\n",
-    "            ↓\n",
-    "    Bytecode (.pyc file)\n",
-    "            ↓\n",
-    "    Python Virtual Machine (PVM)\n",
-    "            ↓\n",
-    "    Machine Code\n",
-    "            ↓\n",
-    "    Output\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "33373514",
-   "metadata": {},
-   "source": []
-  }
- ],
- "metadata": {
-  "language_info": {
-   "name": "python"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+
+# Introduction to Python 🐍
+
+## What is Python?
+
+Python is a **high-level, easy-to-learn programming language** that uses an **interpreter** to execute code.
+
+Python was created by **Guido van Rossum** and first released in **1991**.
+
+---
+
+# Why Python is Popular
+
+Python is widely used because:
+
+1.Easy to read and write  
+2.Beginner-friendly syntax  
+3.Large community support  
+4.Works on Windows, Mac, and Linux  
+5.Huge number of libraries available  
+
+---
+
+# Features of Python
+
+## 1. Interpreted Language
+Python runs **line by line**, which makes debugging easier.
+
+## 2. Dynamically Typed
+You **do not need to declare variable types**.
+
+## 3. Large Libraries
+
+Python provides many powerful libraries.
+
+Examples:
+
+NumPy → Numerical computing
+
+Pandas → Data analysis
+
+Matplotlib → Data visualization
+
+---
+
+# Applications of Python
+
+Python is widely used in:
+
+1.  Machine Learning
+2.  Artificial Intelligence
+3.  Web Development
+4.  Automation
+5.  Game Development
+6.  Cybersecurity
+7.  Networking
+8.  Data Science & Analytics
+9.  Scientific Computing
+10. Finance Testing
+
+---
+
+# Python Workflow
+
+Python follows a simple process to execute a program.
+
+## Step 1: Write Python Code
+
+Write the Python program in an IDE or editor such as:
+
+-   VS Code
+-   PyCharm
+-   Jupyter Notebook
+
+## Step 2: Python Interpreter Reads the Code
+
+Unlike compiled languages such as **C or C++**, Python does not convert
+the entire program into machine code at once. Instead, it **reads and
+executes the code line by line**.
+
+## Step 3: Conversion to Bytecode
+
+When the interpreter reads the program, it converts the code into
+**bytecode**.
+
+-   Bytecode is an **intermediate code**
+-   It is stored in a **`.pyc` file**
+
+## Step 4: Python Virtual Machine (PVM)
+
+The **Python Virtual Machine (PVM)** executes the bytecode.
+
+-   The PVM converts the bytecode into **machine instructions** that the
+    computer can understand.
+
+## Step 5: Output is Generated
+
+Finally, the computer executes the instructions and produces the output.
+
+------------------------------------------------------------------------
+
+
+## Python Execution Workflow
+
+    Python Code (.py file)
+            ↓
+    Python Interpreter
+            ↓
+    Bytecode (.pyc file)
+            ↓
+    Python Virtual Machine (PVM)
+            ↓
+    Machine Code
+            ↓
+    Output
