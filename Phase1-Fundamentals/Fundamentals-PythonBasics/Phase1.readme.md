@@ -8,5 +8,3 @@
 - Conditional Statements
 - Loops (for, while)
 ## Practice:
-
-- Calcula
